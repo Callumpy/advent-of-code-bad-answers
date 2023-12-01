@@ -31,7 +31,6 @@ public class AOCDayOne2 {
         var total = 0;
 
         for (val line : inputLines) {
-            // add the number to the total
             total += getNumberList(convert(line));
         }
 
