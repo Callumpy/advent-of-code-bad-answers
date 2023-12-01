@@ -1,18 +1,16 @@
 import lombok.val;
-
-import lombok.val;
 import java.util.Map;
 
 public class AOCDayOne2 {
     private static final String input = """
-                                        two1nine
-                                        eightwothree
-                                        abcone2threexyz
-                                        xtwone3four
-                                        4nineeightseven2
-                                        zoneight234
-                                        7pqrstsixteen
-                                        """;
+            two1nine
+            eightwothree
+            abcone2threexyz
+            xtwone3four
+            4nineeightseven2
+            zoneight234
+            7pqrstsixteen
+            """;
 
     private static final Map<String, String> conversion = Map.of(
             "one", "o1e",
